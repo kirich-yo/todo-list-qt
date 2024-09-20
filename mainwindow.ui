@@ -62,7 +62,7 @@
            <string>Add</string>
           </property>
           <property name="icon">
-           <iconset theme="QIcon::ThemeIcon::ListAdd"/>
+           <iconset theme="list-add"/>
           </property>
          </widget>
         </item>
@@ -78,7 +78,7 @@
            <string>Remove</string>
           </property>
           <property name="icon">
-           <iconset theme="QIcon::ThemeIcon::ListRemove"/>
+           <iconset theme="list-remove"/>
           </property>
          </widget>
         </item>
@@ -94,7 +94,7 @@
            <string>Edit</string>
           </property>
           <property name="icon">
-           <iconset theme="QIcon::ThemeIcon::MailMessageNew"/>
+           <iconset theme="mail-message-new"/>
           </property>
          </widget>
         </item>
@@ -110,7 +110,7 @@
            <string>Move Up</string>
           </property>
           <property name="icon">
-           <iconset theme="QIcon::ThemeIcon::GoUp"/>
+           <iconset theme="go-up"/>
           </property>
          </widget>
         </item>
@@ -126,7 +126,7 @@
            <string>Move Down</string>
           </property>
           <property name="icon">
-           <iconset theme="QIcon::ThemeIcon::GoDown"/>
+           <iconset theme="go-down"/>
           </property>
          </widget>
         </item>
@@ -182,7 +182,7 @@
   </widget>
   <action name="actionOpen">
    <property name="icon">
-    <iconset theme="QIcon::ThemeIcon::DocumentOpen"/>
+    <iconset theme="document-open"/>
    </property>
    <property name="text">
     <string>&amp;Open...</string>
@@ -190,7 +190,7 @@
   </action>
   <action name="actionSave">
    <property name="icon">
-    <iconset theme="QIcon::ThemeIcon::DocumentSave"/>
+    <iconset theme="document-save"/>
    </property>
    <property name="text">
     <string>&amp;Save...</string>
@@ -198,7 +198,7 @@
   </action>
   <action name="actionExit">
    <property name="icon">
-    <iconset theme="QIcon::ThemeIcon::ApplicationExit"/>
+    <iconset theme="application-exit"/>
    </property>
    <property name="text">
     <string>&amp;Exit</string>
@@ -211,7 +211,7 @@
   </action>
   <action name="actionAbout">
    <property name="icon">
-    <iconset theme="QIcon::ThemeIcon::HelpAbout"/>
+    <iconset theme="help-about"/>
    </property>
    <property name="text">
     <string>&amp;About...</string>
