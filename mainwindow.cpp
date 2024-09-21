@@ -55,7 +55,7 @@ void MainWindow::on_actionAboutQt_triggered()
 void MainWindow::on_actionAbout_triggered()
 {
     QMessageBox msgBox;
-    msgBox.setText("This is a small pet project that allows you to keep a to-do list.");
+    msgBox.setText("ToDo List version 1.1\n\nThis is a small pet project that allows you to keep a to-do list.");
     msgBox.exec();
 }
 
@@ -185,9 +185,9 @@ void MainWindow::on_actionOpen_triggered()
 
     for (int row = 0; row < ui->toDoListWidget->count(); row++)
     {
-        QListWidgetItem * taskItem = ui->toDoListWidget->takeItem(row);
-        delete taskItem;
+        delete ui->toDoListWidget->item(row);
     }
+    ui->toDoListWidget->clear();
 
     QDomElement root = todoDoc.documentElement();
     for (QDomNode n = root.firstChild(); !n.isNull(); n = n.nextSibling())

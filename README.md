@@ -40,3 +40,11 @@ Fedora/Red Hat Enterprise/CentOS Stream:
 sudo dnf install cmake
 sudo dnf install qt6-qtbase-devel
 ```
+
+## Changelog
+
+1.1:
+- Small bugfix
+
+1.0:
+- First version
